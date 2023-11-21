@@ -20,8 +20,8 @@ Operators in javascript
 // first_name (valid)
 // _firstname (valid)
 
-// first$name (invalid)
-// $firstname (invalid)
+// first$name (valid)
+// $firstname (valid)
 
 // you cannot use spaces
 
