@@ -1,0 +1,126 @@
+Tutorial 2  :-
+--------------------------------------------------------------------------------------
+
+website: codprog.com
+
+History of JavaScript :-
+-----------------------
+
+1. In 1995 a popular web browser Netscape Navigator, they wanted a programming language
+to add interacting in website
+
+2. Brenden Erich made javascript from 1995 in 10 days first name mocha and then Live JavaScript
+then for marketing they made javascript.
+
+3. Then Internet Explorer took javascript and made changes and made JavaScript
+
+4. In 1996 there are two languages JavaScript and JScript. Here javascript for netscape 
+and JScript for Internet Explorer
+
+5. Then JavaScript is taken Ecma Script that Standardize Technologies,
+
+6. Then JavaScript made as ECMAScript
+
+7. In 1997 ES1 came that every browser should follow, then ES2, ES3 and in ES5
+    (2009) that bought many new features, ES6(2015) Biggest Update in the history of JScript
+
+8. ES6 is referred as Modern JavaScript 
+
+9. Members of tc39 decides what new features should be given in JavaScript.
+
+10. ES7, ES8 came.
+
+11. JavaScript is Backward Comaptible but JavaScript is not forward compatible.
+
+12. Babel is used to transpile the code for Forward compatibility.
+
+__________________________________________________________________________________
+Tutorial 3 :
+----------------------------------------------------------------------------------
+
+1. Download Vs Code from official website.
+
+Note:-
+
+1. To print a log message 
+        console.log("message")
+
+2. Double quotes or single quotes both are valid
+
+3. We can also use back ticks. (`), they are 
+used in String templates.
+
+4. Semicolon is optional but it is a good 
+programming practice.
+
+5. // This is comment
+
+6. ctrl+ / to comment
+
+Primitives:
+
+How Primitives are stored
+----------------------------
+
+Primitives are stored in stacks.
+
+var4
+var3
+var2
+var1
+
+Ex:
+
+let num1=4;
+let num2=num1;
+
+This is how it looks in stack
+4   num2
+4   num1
+
+If one value changes then other variable
+values doesn't get reflected.
+
+How Reference Types are stored:
+---------------------------------
+
+There are two areas in Memory
+1. Stack (Primitives)
+2. Reference (Heap)
+
+let array1=["item1","item2"]
+let array2=array1;
+array1                      array2
+        \                 /
+         ["item1","item2"]
+
+If one variable value changes then all
+reference variable values changes.
+
+Note:-
+________
+Here array1, array2 are pointers that are
+stored in Stack that contains address of
+the Heap Memory Area.
+
+array1 -> 0X11
+array2 -> 0X11
+
+When you push item3 then
+
+array1                              array2
+        \                       /
+         ["item1","item2","item"]
+
+Both array1,array2 has same address.
+
+Best Way to Clone is Slice as 
+it is best in Performance
+
+Mostly used is spread.
+
+Use all the Reference types with const 
+keyword.
+
+Objects are stored in Memory similar to
+Arrays.
